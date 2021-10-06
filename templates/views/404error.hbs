@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{>headerlink}}
+</head>
+
+<body>
+
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-6 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class=" main_header_left align-items-center">
+                        <figure>
+                            <img src="images/404  error.jpg" alt="">
+                        </figure>
+
+                        <p>Welcome to Dharm</p>
+                        <h1>{{errorMsg}} </h1>
+                        <a href="/" ><button>Go back</button></a>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer code -->
+
+{{>footer}}
+   {{>script}}
+</body>
+
+</html>
